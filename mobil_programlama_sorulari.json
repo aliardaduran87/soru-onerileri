@@ -1,52 +1,59 @@
-[
-  {
-    "question": "Android işletim sisteminin 'Marshmallow' sürümünde sisteme dahil edilen ve kullanıcı deneyimini doğrudan etkileyen önemli özellik aşağıdakilerden hangisidir?",
-    "choices": [
-      "Alfabetik olarak erişilebilen dikey uygulama çekmecesi",
-      "Widget'ların tamamen baştan tasarlanması",
-      "Null Safety desteğinin doğrudan çekirdeğe eklenmesi",
-      "Sadece tabletlere özel yatay arayüz optimizasyonu",
-      "Koyu temanın (Dark Mode) tüm sistemde zorunlu hale getirilmesi"
-    ]
-  },
-  {
-    "question": "Android Aktivite Yaşam Döngüsü'nde (Activity Lifecycle), mevcut çalışan bir aktivite arka plana düştüğünde ve artık kullanıcı tarafından görünür olmadığında sırasıyla hangi metotlar tetiklenir?",
-    "choices": [
-      "onPause() -> onStop()",
-      "onStart() -> onResume()",
-      "onCreate() -> onDestroy()",
-      "onResume() -> onRestart()",
-      "onStop() -> onPause()"
-    ]
-  },
-  {
-    "question": "Dart dilinde bir metin (String) ifadesi içerisinde birden fazla sayıyı matematiksel işleme sokarak sonucu doğrudan yazdırmak (String Interpolation) için hangi sözdizimi (syntax) kullanılır?",
-    "choices": [
-      "print(\"Toplam: ${8+9}\");",
-      "print(\"Toplam: &{8+9}\");",
-      "print(\"Toplam: +(8+9)\");",
-      "print(\"Toplam: #{8+9}\");",
-      "print(\"Toplam: @[8+9]\");"
-    ]
-  },
-  {
-    "question": "Dart dilinde bir sınıf (class) içindeki değişkenin değerini değiştirmek üzere, veri güvenliğini sağlamak ve atama işlemini özelleştirmek için oluşturulan özel metoda ne ad verilir?",
-    "choices": [
-      "set anahtar kelimesi kullanılarak bir metot tanımlanır.",
-      "get anahtar kelimesi ile değer atanır.",
-      "let anahtar kelimesi ile sınıf dışında tanımlanır.",
-      "assign anahtar kelimesi ile değişken doğrudan değiştirilir.",
-      "put anahtar kelimesi ile kapsülleme yapılır."
-    ]
-  },
-  {
-    "question": "Flutter ve Dart projelerini bilgisayara herhangi bir SDK veya kurulum yüklemeden, doğrudan tarayıcı üzerinden geliştirmek ve derlemek için kullanılabilecek çevrimiçi (online) IDE'ler hangi seçenekte doğru olarak verilmiştir?",
-    "choices": [
-      "DartPad ve FlutLab",
-      "Android Studio Web ve IntelliJ Cloud",
-      "Visual Studio Code Online ve Eclipse Web",
-      "Flutter Builder ve Dart Web IDE",
-      "Xcode Cloud ve Swift Playground"
-    ]
-  }
+{
+"questions": [
+{
+"question": "Android işletim sisteminin 'Marshmallow' sürümünde sisteme dahil edilen ve kullanıcı deneyimini doğrudan etkileyen önemli özellik aşağıdakilerden hangisidir?",
+"difficulty": 2,
+"choices": [
+"Alfabetik olarak erişilebilen dikey uygulama çekmecesi",
+"Widget'ların tamamen baştan tasarlanması",
+"Null Safety desteğinin doğrudan çekirdeğe eklenmesi",
+"Sadece tabletlere özel yatay arayüz optimizasyonu",
+"Koyu temanın (Dark Mode) tüm sistemde zorunlu hale getirilmesi"
 ]
+},
+{
+"question": "Android Aktivite Yaşam Döngüsü'nde (Activity Lifecycle), mevcut çalışan bir aktivite arka plana düştüğünde ve artık kullanıcı tarafından görünür olmadığında sırasıyla hangi metotlar tetiklenir?",
+"difficulty": 2,
+"choices": [
+"onPause() -> onStop()",
+"onStart() -> onResume()",
+"onCreate() -> onDestroy()",
+"onResume() -> onRestart()",
+"onStop() -> onPause()"
+]
+},
+{
+"question": "Dart dilinde bir metin (String) ifadesi içerisinde birden fazla sayıyı matematiksel işleme sokarak sonucu doğrudan yazdırmak (String Interpolation) için hangi sözdizimi (syntax) kullanılır?",
+"difficulty": 2,
+"choices": [
+"print("Toplam: ${8+9}");",
+"print("Toplam: &{8+9}");",
+"print("Toplam: +(8+9)");",
+"print("Toplam: #{8+9}");",
+"print("Toplam: @[8+9]");"
+]
+},
+{
+"question": "Dart dilinde bir sınıf (class) içindeki değişkenin değerini değiştirmek üzere, veri güvenliğini sağlamak ve atama işlemini özelleştirmek için oluşturulan özel metoda ne ad verilir?",
+"difficulty": 2,
+"choices": [
+"set anahtar kelimesi kullanılarak bir metot tanımlanır.",
+"get anahtar kelimesi ile değer atanır.",
+"let anahtar kelimesi ile sınıf dışında tanımlanır.",
+"assign anahtar kelimesi ile değişken doğrudan değiştirilir.",
+"put anahtar kelimesi ile kapsülleme yapılır."
+]
+},
+{
+"question": "Flutter ve Dart projelerini bilgisayara herhangi bir SDK veya kurulum yüklemeden, doğrudan tarayıcı üzerinden geliştirmek ve derlemek için kullanılabilecek çevrimiçi (online) IDE'ler hangi seçenekte doğru olarak verilmiştir?",
+"difficulty": 2,
+"choices": [
+"DartPad ve FlutLab",
+"Android Studio Web ve IntelliJ Cloud",
+"Visual Studio Code Online ve Eclipse Web",
+"Flutter Builder ve Dart Web IDE",
+"Xcode Cloud ve Swift Playground"
+]
+}
+]
+}
