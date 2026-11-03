@@ -1,0 +1,291 @@
+
+{
+  "questions": [
+    {
+      "question": "İstemci-sunucu mimarisinde istemcinin temel görevi aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Sunucudan hizmet talep etmek ve isteği başlatmak",
+        "Veritabanındaki kayıtları doğrudan değiştirmek",
+        "Sunucunun iş kurallarını yönetmek",
+        "Sunucu tarafındaki yetkilendirmeyi gerçekleştirmek",
+        "Veritabanı tablolarını oluşturmak"
+      ]
+    },
+    {
+      "question": "Backend kavramı aşağıdakilerden hangisini ifade eder?",
+      "difficulty": 1,
+      "choices": [
+        "İş kurallarını, doğrulamayı, yetkilendirmeyi ve veri erişimini yöneten sunucu tarafını",
+        "Kullanıcının gördüğü görsel arayüzü",
+        "Yalnızca HTML ve CSS dosyalarını",
+        "İnternet bağlantısını sağlayan donanımı",
+        "Sadece veritabanında saklanan kayıtları"
+      ]
+    },
+    {
+      "question": "HTTP protokolünde GET metodunun temel amacı aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Bir kaynağı sunucudan almak",
+        "Sunucuda yeni bir kayıt oluşturmak",
+        "Bir kaydı tamamen silmek",
+        "Sunucunun işletim sistemini değiştirmek",
+        "Veritabanı bağlantısını kapatmak"
+      ]
+    },
+    {
+      "question": "HTTPS, HTTP iletişimine hangi güvenlik mekanizmasını ekler?",
+      "difficulty": 1,
+      "choices": [
+        "TLS kullanarak gizlilik, bütünlük ve sunucu kimlik doğrulaması sağlar",
+        "Veritabanındaki bütün kayıtları şifreler",
+        "Sunucudaki tüm kullanıcıları otomatik olarak yetkilendirir",
+        "İstemci tarafındaki bütün yazılım hatalarını ortadan kaldırır",
+        "HTTP durum kodlarının kullanılmasını engeller"
+      ]
+    },
+    {
+      "question": "API sözleşmesinin temel amacı aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Bileşenlerin hangi adreslerden, veri biçimleriyle ve kurallarla iletişim kuracağını belirlemek",
+        "Veritabanındaki bütün verileri otomatik olarak saklamak",
+        "Kullanıcı arayüzünü tasarlamak",
+        "Sunucunun işlemcisini yönetmek",
+        "İstemcinin işletim sistemini belirlemek"
+      ]
+    },
+    {
+      "question": "HTTP 404 durum kodu ne anlama gelir?",
+      "difficulty": 1,
+      "choices": [
+        "İstenen kaynak bulunamadı",
+        "İstek başarıyla tamamlandı",
+        "Kimlik doğrulaması gerekli",
+        "Sunucu isteği başarıyla oluşturdu",
+        "Sunucuda beklenmeyen hata oluştu"
+      ]
+    },
+    {
+      "question": "Node.js üzerinde web sunucuları ve API geliştirmek için kullanılan hafif web uygulama çatısı hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Express",
+        "PostgreSQL",
+        "TypeScript",
+        "ECMAScript",
+        "Nginx"
+      ]
+    },
+    {
+      "question": "JavaScript dilinin ortak kurallarını ve davranışlarını tanımlayan standart aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "ECMAScript",
+        "Express",
+        "PostgreSQL",
+        "Node.js",
+        "HTTP"
+      ]
+    },
+    {
+      "question": "JavaScript'te Promise hangi kavramı temsil eder?",
+      "difficulty": 1,
+      "choices": [
+        "Gelecekte tamamlanabilecek bir asenkron işlemin sonucunu",
+        "Bir veritabanı tablosunun yapısını",
+        "Bir HTTP sunucusunun IP adresini",
+        "Bir değişkenin yalnızca metin tutmasını",
+        "Bir fonksiyonun mutlaka senkron çalışmasını"
+      ]
+    },
+    {
+      "question": "Express uygulamasında listen() metodunun temel görevi nedir?",
+      "difficulty": 1,
+      "choices": [
+        "Belirtilen port üzerinden gelen bağlantıları dinlemek",
+        "Veritabanındaki kayıtları listelemek",
+        "HTTP isteklerini otomatik olarak şifrelemek",
+        "TypeScript kodunu JavaScript'e dönüştürmek",
+        "Uygulamadaki bütün middleware fonksiyonlarını silmek"
+      ]
+    },
+    {
+      "question": "Reverse proxy'nin temel görevlerinden biri aşağıdakilerden hangisidir?",
+      "difficulty": 2,
+      "choices": [
+        "İstemciden gelen istekleri uygun backend hizmetlerine yönlendirmek",
+        "Backend içerisindeki bütün iş kurallarını çalıştırmak",
+        "Veritabanındaki tabloları otomatik olarak oluşturmak",
+        "İstemcinin ekran tasarımını yönetmek",
+        "TypeScript kodlarını çalışma zamanında derlemek"
+      ]
+    },
+    {
+      "question": "HTTP protokolünün stateless (durumsuz) olması aşağıdakilerden hangisini ifade eder?",
+      "difficulty": 2,
+      "choices": [
+        "Her isteğin protokol semantiği açısından bağımsız olarak yorumlanabilmesini",
+        "TCP bağlantısının her HTTP isteğinden sonra mutlaka kapatılmasını",
+        "Uygulamaların kullanıcı oturumu tutamamasını",
+        "Sunucunun hiçbir veriyi veritabanında saklayamamasını",
+        "İstemcinin sunucuya yalnızca bir kez istek gönderebilmesini"
+      ]
+    },
+    {
+      "question": "Bir web uygulamasında iş kurallarının neden backend tarafında uygulanması gerekir?",
+      "difficulty": 2,
+      "choices": [
+        "İstemci tarafındaki kod kullanıcı tarafından değiştirilebilir ve güvenilir kabul edilemez",
+        "Frontend tarafında hiçbir programlama dili kullanılamaz",
+        "Backend yalnızca görsel işlemler gerçekleştirebilir",
+        "HTTP protokolü istemci tarafında kod çalıştırılmasını engeller",
+        "Veritabanları yalnızca backend olmadan çalışabilir"
+      ]
+    },
+    {
+      "question": "TypeScript'te interface ve union type kullanmanın temel avantajı nedir?",
+      "difficulty": 2,
+      "choices": [
+        "Veri sözleşmelerini ve olası değerleri tür sistemiyle belirginleştirmek",
+        "Uygulamanın çalışma zamanında otomatik olarak yeni thread açmasını sağlamak",
+        "Veritabanı bağlantılarını otomatik olarak oluşturmak",
+        "HTTP isteklerini şifrelemek",
+        "JavaScript kodlarını doğrudan makine diline çevirmek"
+      ]
+    },
+    {
+      "question": "JavaScript'te aşağıdaki ifadelerden hangisi null veya undefined değerler için varsayılan değer atamak amacıyla kullanılır?",
+      "difficulty": 2,
+      "choices": [
+        "??",
+        "===",
+        "!==",
+        "&&",
+        "=>"
+      ]
+    },
+    {
+      "question": "Promise.all() hangi durumda tercih edilmelidir?",
+      "difficulty": 2,
+      "choices": [
+        "Birbirinden bağımsız asenkron işlemleri birlikte başlatıp sonuçlarını beklemek gerektiğinde",
+        "İkinci işlemin başlaması için ilk işlemin sonucunun zorunlu olduğu durumlarda",
+        "Bütün işlemleri senkron hâle getirmek gerektiğinde",
+        "Hata yönetimini tamamen devre dışı bırakmak gerektiğinde",
+        "Yeni bir işletim sistemi iş parçacığı oluşturmak gerektiğinde"
+      ]
+    },
+    {
+      "question": "Express uygulamasında middleware fonksiyonunun temel görevi nedir?",
+      "difficulty": 2,
+      "choices": [
+        "İstek ile nihai yanıt arasında loglama, kimlik denetimi ve veri ayrıştırma gibi işlemleri gerçekleştirmek",
+        "Yalnızca veritabanı tablolarını oluşturmak",
+        "İstemcinin ekran çözünürlüğünü değiştirmek",
+        "HTTP protokolünü tamamen ortadan kaldırmak",
+        "Sunucunun işletim sistemini yönetmek"
+      ]
+    },
+    {
+      "question": "Express uygulamasında req.params, req.query ve req.body hangi amaçlarla kullanılır?",
+      "difficulty": 2,
+      "choices": [
+        "Sırasıyla URL parametrelerini, sorgu parametrelerini ve istek gövdesini okumak",
+        "Sırasıyla HTTP yanıtını, sunucu portunu ve veritabanı bağlantısını yönetmek",
+        "Sırasıyla kullanıcı arayüzünü, CSS dosyalarını ve HTML belgelerini okumak",
+        "Sırasıyla sunucu hatalarını, işletim sistemi kayıtlarını ve ağ bağlantılarını yönetmek",
+        "Sırasıyla TLS sertifikasını, IP adresini ve DNS kaydını okumak"
+      ]
+    },
+    {
+      "question": "JavaScript'te async/await kullanımının temel amacı nedir?",
+      "difficulty": 2,
+      "choices": [
+        "Promise tabanlı asenkron işlemleri daha okunabilir ve sıralı bir akışla yazmak",
+        "Her asenkron işlem için otomatik olarak yeni bir thread oluşturmak",
+        "Bütün fonksiyonları senkron çalıştırmak",
+        "Veritabanı işlemlerini tamamen ortadan kaldırmak",
+        "HTTP isteklerini otomatik olarak şifrelemek"
+      ]
+    },
+    {
+      "question": "Express uygulamasında next() fonksiyonu çağrılmaz ve yanıt da gönderilmezse ne gibi bir sonuç ortaya çıkabilir?",
+      "difficulty": 2,
+      "choices": [
+        "İstek sonraki middleware veya route aşamasına ilerleyemez ve askıda kalabilir",
+        "Sunucu otomatik olarak yeniden başlatılır",
+        "Veritabanındaki bütün kayıtlar silinir",
+        "İstek otomatik olarak 200 durum koduyla tamamlanır",
+        "Express uygulaması kendiliğinden yeni bir port açar"
+      ]
+    },
+    {
+      "question": "Bir Express API uygulamasında POST /kitaplar isteği geçerli verilerle yeni bir kitap kaydı oluşturduğunda hangi HTTP durum kodunun kullanılması sunumda önerilmektedir?",
+      "difficulty": 2,
+      "choices": [
+        "201 Created",
+        "200 OK",
+        "400 Bad Request",
+        "401 Unauthorized",
+        "404 Not Found"
+      ]
+    },
+    {
+      "question": "Bir geliştirici, kullanıcı yetkisini kontrol etmek için aşağıdaki kodu yazmıştır: if (kullanici.yetkiliMi = true). Bu kodun temel problemi nedir?",
+      "difficulty": 3,
+      "choices": [
+        "Karşılaştırma yerine atama operatörü kullanıldığı için kullanıcının yetkisi true yapılır",
+        "Üç eşittir kullanıldığı için TypeScript derleme hatası verir",
+        "if koşulu yalnızca string değerlerle çalışır",
+        "yetkiliMi alanı otomatik olarak silinir",
+        "Kod her durumda false sonucu üretir"
+      ]
+    },
+    {
+      "question": "Bir Node.js uygulamasında ağır bir CPU hesaplaması async/await kullanılarak çalıştırıldığında neden diğer istekler gecikebilir?",
+      "difficulty": 3,
+      "choices": [
+        "async/await yeni bir thread oluşturmaz; CPU yoğun işlem event loop'u bloke edebilir",
+        "async/await bütün işlemleri otomatik olarak PostgreSQL'e aktarır",
+        "Promise kullanılması HTTP bağlantılarını otomatik olarak kapatır",
+        "Node.js bütün CPU işlemlerini varsayılan olarak ayrı çekirdeklere dağıtır",
+        "await kullanılması uygulamanın TLS sertifikasını geçersiz kılar"
+      ]
+    },
+    {
+      "question": "Bir Express API uygulamasında express.json() middleware'i eklenmemişse veya istemci uygun Content-Type başlığını göndermemişse hangi problem ortaya çıkabilir?",
+      "difficulty": 3,
+      "choices": [
+        "İstek gövdesi ayrıştırılamayacağı için req.body undefined kalabilir",
+        "URL parametreleri otomatik olarak veritabanına kaydedilir",
+        "Sunucu bütün GET isteklerini POST isteğine dönüştürür",
+        "HTTP durum kodları kullanılamaz hâle gelir",
+        "Middleware zinciri otomatik olarak tersine döner"
+      ]
+    },
+    {
+      "question": "Bir sistemde yetkilendirme kontrolünün reverse proxy üzerinde route eşleşmesinden önce yapılmasının temel mimari gerekçesi nedir?",
+      "difficulty": 3,
+      "choices": [
+        "Yetkisiz isteklerin ilgili backend servisine ulaşmasını engellemek",
+        "Veritabanı sorgularının daha hızlı çalışmasını sağlamak",
+        "İstemci tarafındaki JavaScript kodlarını derlemek",
+        "HTTP protokolünü stateless olmaktan çıkarmak",
+        "Bütün API uç noktalarını herkese açık hâle getirmek"
+      ]
+    },
+    {
+      "question": "Bir backend uygulamasında bağımsız iki veritabanı sorgusu bulunmakta, ancak ikinci sorgunun başlaması için birinci sorgunun sonucuna ihtiyaç duyulmamaktadır. Sunumdaki asenkron programlama yaklaşımına göre en uygun çözüm hangisidir?",
+      "difficulty": 3,
+      "choices": [
+        "İki sorguyu Promise.all() ile birlikte çalıştırıp sonuçlarını beklemek",
+        "İlk sorguyu await ile tamamladıktan sonra ikinci sorguyu başlatmak zorunludur",
+        "İki sorguyu da setTimeout içerisinde çalıştırıp sonuçları beklememek",
+        "Sorguları senkron hâle getirerek Promise kullanımını kaldırmak",
+        "İki sorguyu tek bir try/catch bloğuna koyup await kullanmamak"
+      ]
+    }
+  ]
+}
